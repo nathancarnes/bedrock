@@ -10,9 +10,11 @@
 	<head profile="http://gmpg.org/xfn/11">
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+		
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheets/reset.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheets/base.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+		
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/javascripts/base.js"></script>
