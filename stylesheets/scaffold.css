@@ -1,0 +1,78 @@
+body{
+	font-family: Helvetica, Arial, Sans;
+	margin: 20px auto;
+	width: 920px;
+}
+
+a{
+	color: #24c;
+}
+
+a:hover{
+	color: #c42;
+}
+
+h1, h2, h3{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h1{ font-size: 1.5em; }
+h2{ font-size: 1.25em; }
+
+p, ul, ol{ 
+	margin-bottom: 10px; 
+}
+
+.menu{
+	margin-bottom: 0;
+}
+
+.menu li{
+	float: left;
+	margin-right: 10px;
+}
+
+#header, #sidebar, #footer{
+	background: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#header h1{
+	font-size: ;
+}
+
+#sidebar{
+	float: left;
+	font-size: .8em;
+	width: 200px;
+}
+
+#main{
+	float: left; 
+	width: 630px;
+	padding: 10px;
+	margin-right: 50px;
+	font-size: .9em;
+}
+
+#footer{
+	clear: both;
+	font-size: .7em; 
+}
+
+.copyright{ 
+	float: right;
+}
+
+.post_thumbnail{
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+
+.featured_image{
+	text-align: center;
+	margin-bottom: 20px;
+}

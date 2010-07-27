@@ -1,0 +1,5 @@
+/* We need to define these so image alignment changes made in the editor do what users will expect */
+.aligncenter { display: block; margin: 10px auto; }
+.alignleft { float: left; margin: 0 10px 10px 0; }
+.alignright { float: right; margin: 0 0 10px 10px; }
+.wp-caption { text-align: center; padding: 10px; margin: 10px; }

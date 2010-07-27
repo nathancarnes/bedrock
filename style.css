@@ -1,0 +1,11 @@
+/*
+Theme Name: Bedrock
+Theme URI: http://github.com/nathancarnes/Bedrock
+Description: A WordPress 3.0-friendly parent theme. Minimal, but with some common features built in. Based on the lovely Starkers.
+Version: 1.0
+Author: Carnes Media
+Author URI: http://carnesmedia.com
+Tags: base, framework, parent
+*/
+
+@import "stylesheets/css/scaffold.css";
