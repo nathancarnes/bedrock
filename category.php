@@ -3,8 +3,8 @@
  * The template for displaying Category Archive pages.
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @subpackage Bedrock
+ * @since Bedrock 2.0
  */
 
 get_header(); ?>

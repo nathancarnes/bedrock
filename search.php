@@ -3,8 +3,8 @@
  * The template for displaying Search Results pages.
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @subpackage Bedrock
+ * @since Bedrock 2.0
  */
 
 get_header(); ?>

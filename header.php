@@ -5,8 +5,8 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @subpackage Bedrock
+ * @since Bedrock 2.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
