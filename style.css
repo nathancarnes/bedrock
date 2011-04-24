@@ -1,11 +1,17 @@
 /*
 Theme Name: Bedrock
 Theme URI: http://github.com/nathancarnes/Bedrock
-Description: A WordPress 3.0-friendly parent theme. Minimal, but with some common features built in. Based on the lovely Starkers 3.
-Tags: sdfs
+Description: A WordPress 3.0-friendly parent theme. Minimal, but with some common features built in. Based on the lovely Starkers 3. 
 Version: 2.0
 Author: Carnes Media
 Author URI: http://carnesmedia.com
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
+*/             
+        
+/* Required WordPress Classes */
+/* Be sure to style these in your child theme */
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}

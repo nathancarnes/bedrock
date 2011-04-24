@@ -11,13 +11,8 @@ get_header(); ?>
 
 
 
-				<h1><?php _e( 'Not Found', 'twentyten' ); ?></h1>
-				<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
+				<h1><?php echo $cap->not_found_title; ?></h1>
+				<p><?php echo $cap->not_found_body; ?></p>
 				<?php get_search_form(); ?>
-
-	<script type="text/javascript">
-		// focus on search field after it has loaded
-		document.getElementById('s') && document.getElementById('s').focus();
-	</script>
 
 <?php get_footer(); ?>
