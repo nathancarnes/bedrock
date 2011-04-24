@@ -3,6 +3,8 @@
  * @package WordPress
  * @subpackage Bedrock
  */
+                    
+require_once('admin/cheezcap.php'); 
 
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
