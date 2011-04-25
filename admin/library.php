@@ -244,8 +244,9 @@ function top_level_settings() {
 		echo '<div id="message" class="updated fade"><p><strong>' . esc_html( $themename . ' settings reset.' ) . '</strong></p></div>';
 	?>
 
-	<div class="wrap">
-		<h2><b><?php echo esc_html( $themename . ' Theme Options.' ); ?></b></h2>
+	<div class="wrap">     
+	  
+		<div id="icon-options-general" class="icon32"></div><h2><?php echo esc_html( $themename . ' Theme Options.' ); ?></h2>
 
 		<form method="post">
 

@@ -78,7 +78,6 @@
 				<a href="<?php echo get_term_link( _x('gallery', 'gallery category slug', 'twentyten'), 'category' ); ?>" title="<?php esc_attr_e( 'View posts in the Gallery category', 'twentyten' ); ?>"><?php _e( 'More Galleries', 'twentyten' ); ?></a>
 				|
 				<?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?>
-				<?php edit_post_link( __( 'Edit', 'twentyten' ), '|', '' ); ?>
 
 <?php /* How to display posts in the asides category */ ?>
 
@@ -107,7 +106,6 @@
 					|
 				<?php endif; ?>
 				<?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?>
-				<?php edit_post_link( __( 'Edit', 'twentyten' ), '| ', '' ); ?>
 
 		<?php comments_template( '', true ); ?>
      </article>

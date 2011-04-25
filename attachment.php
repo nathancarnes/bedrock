@@ -50,7 +50,6 @@ get_header(); ?>
 								);
 							}
 						?>
-						<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
 					</div><!-- .entry-meta -->
 
 <?php if ( wp_attachment_is_image() ) :
@@ -89,7 +88,6 @@ get_header(); ?>
 <?php wp_link_pages( array( 'before' => '' . __( 'Pages:', 'twentyten' ), 'after' => '' ) ); ?>
 
 						<?php twentyten_posted_in(); ?>
-						<?php edit_post_link( __( 'Edit', 'twentyten' ), ' ', '' ); ?>
 
 <?php comments_template(); ?>
 

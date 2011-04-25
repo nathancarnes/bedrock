@@ -24,7 +24,6 @@ get_header(); ?>
 
 						<?php the_content(); ?>
 						<?php wp_link_pages( array( 'before' => '' . __( 'Pages:', 'twentyten' ), 'after' => '' ) ); ?>
-						<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
 
 				<?php comments_template( '', true ); ?>
 
