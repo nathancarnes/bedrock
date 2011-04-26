@@ -66,13 +66,43 @@ function cap_get_options() {
   			'no_search_results_title',
   			'No Found Results for "[term]"'
   		),  
-  		new TextOption(
-  			'No Search Results Body',
-  			'Shown on the search page when no results are found.',
-  			'no_search_results_body',
-  			'No results were found for your search. You might want to try a different search.',
-  			true
-  		),  				 							
+      new TextOption(
+        'No Search Results Body',
+        'Shown on the search page when no results are found.',
+        'no_search_results_body',
+        'No results were found for your search. You might want to try a different search.',
+        true
+      ),
+      new TextOption(
+        'Continue Reading Link',
+        'Shown when content is truncated on archive and post pages',
+        'continue_reading_link',
+        'Read more...'
+      ), 
+      new TextOption(
+        'Older Posts Link',
+        'Pagination',
+        'older_posts_link',
+        'Older Posts'
+      ),       			
+      new TextOption(
+        'Newer Posts Link',
+        'Pagination',
+        'newer_posts_link',
+        'Newer Posts'
+      ), 
+      new TextOption(
+        'Tags Prefix',
+        'Appears in post footers',
+        'tags_prefix',
+        'Tagged '
+      ),       			
+      new TextOption(
+        'Categories prefix',
+        'Appears in post footers',
+        'categories_prefix',
+        'Filed under '
+      ),           	 							
 			)
 		),
 	);
