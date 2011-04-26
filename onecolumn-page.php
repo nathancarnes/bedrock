@@ -4,9 +4,6 @@
  *
  * A custom page template without sidebar.
  *
- * The "Template Name:" bit above allows this to be selectable
- * from a dropdown menu on the edit page screen.
- *
  * @package WordPress
  * @subpackage Bedrock
  * @since Bedrock 2.0
@@ -18,7 +15,6 @@ get_header(); ?>
 
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
-				<?php wp_link_pages( array( 'before' => '' . __( 'Pages:', 'twentyten' ), 'after' => '' ) ); ?>
 
 				<?php comments_template( '', true ); ?>
 
