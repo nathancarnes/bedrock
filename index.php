@@ -13,15 +13,9 @@
  * @since Bedrock 2.0
  */
 
-get_header(); ?>
+get_header( 'index' ); ?>
 
-			<?php
-			/* Run the loop to output the posts.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-index.php and that will be used instead.
-			 */
-			 get_template_part( 'loop', 'index' );
-			?>
+<?php get_template_part( 'loop', 'index' ); ?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_sidebar( 'index' ); ?>
+<?php get_footer( 'index' ); ?>

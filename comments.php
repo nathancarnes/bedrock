@@ -1,12 +1,5 @@
 <?php
-/**
- * The template for displaying Comments.
- *
- * The area of the page that contains both current comments
- * and the comment form.  The actual display of comments is
- * handled by a callback to twentyten_comment which is
- * located in the functions.php file.
- *
+/*
  * @package WordPress
  * @subpackage Bedrock
  * @since Bedrock 2.0
@@ -22,10 +15,6 @@
 		 */
 		return;
 	endif;
-?>
-
-<?php
-	// You can start editing here -- including this comment!
 ?>
 
 <?php if ( have_comments() ) : ?>
@@ -48,7 +37,7 @@
 					 * define twentyten_comment() and that will be used instead.
 					 * See twentyten_comment() in twentyten/functions.php for more.
 					 */
-					wp_list_comments( array( 'callback' => 'twentyten_comment' ) );
+					wp_list_comments(  );
 				?>
 			</ol>
 

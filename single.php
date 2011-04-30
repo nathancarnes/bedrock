@@ -13,11 +13,11 @@ get_header(); ?>
 
 					<h1><?php the_title(); ?></h1>
 
-						<?php twentyten_posted_on(); ?>
+						<?php the_date(); ?>
 
 						<?php the_content(); ?>
 
-						<?php twentyten_posted_in(); ?>
+            <?php get_template_part( 'post_footer', 'loop' ); ?>
 
 				<?php comments_template( '', true ); ?>
 

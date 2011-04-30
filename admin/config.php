@@ -17,13 +17,9 @@ function cap_get_options() {
 	return array(
 		new Group( 'Basic', 'basic',
 			array(
-				new TextOption(
-					'Analytics Code',
-					'Paste in Google Analytics or other tracking code here to include just before the </body> tag.',
-					'analytics_code',
-					'',
-					true
-				)
+				new TextOption( 'Analytics Code', 'Paste in Google Analytics or other tracking code here to include just before the </body> tag.', 'analytics_code', '', true ),
+				new BooleanOption( 'Use scaffold styles', 'Provides basic layout and styling for testing', 'use_scaffold', true ),
+				new BooleanOption( 'Use reset stylesheet', 'Include Eric Meyer\'s reset.css', 'use_reset', true )        				        
 			)
 		),
 		new Group( 'Language Settings', 'language',
@@ -72,7 +68,26 @@ function cap_get_options() {
         'no_search_results_body',
         'No results were found for your search. You might want to try a different search.',
         true
-      ),
+      ), 
+      new TextOption(
+        'Empty Archive Title',
+        'Shown when a category, tag, or date archive is empty',
+        'empty_archive_title',
+        'Not Found'
+      ), 
+      new TextOption(
+        'Empty Archive Body',
+        'Shown when a category, tag, or date archive is empty',
+        'empty_archive_body',
+        'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.'
+      ),  
+      new TextOption(
+        'No Search Results Body',
+        'Shown on the search page when no results are found.',
+        'no_search_results_body',
+        'No results were found for your search. You might want to try a different search.',
+        true
+      ),      
       new TextOption(
         'Continue Reading Link',
         'Shown when content is truncated on archive and post pages',
@@ -102,7 +117,25 @@ function cap_get_options() {
         'Appears in post footers',
         'categories_prefix',
         'Filed under '
-      ),           	 							
+      ),  
+      new TextOption(
+        'No Comments',
+        '',
+        'no_comments',
+        '0 Comments'
+      ),           
+      new TextOption(
+        'One Comment',
+        '',
+        'one_comment',
+        'One Comment'
+      ),
+      new TextOption(
+        'Many Comments',
+        'Use [num] as a placeholder for the number of comments',
+        'many_comments',
+        '[num] Comments'
+      ),              	 							
 			)
 		),
 	);

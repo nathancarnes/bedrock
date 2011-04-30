@@ -35,5 +35,6 @@ function bedrock_register_menus() {
 			'footer-menu' => __( 'Footer Menu' )
 		)
 	);
-}
+}        
+
 ?>
