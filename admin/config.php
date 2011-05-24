@@ -51,6 +51,10 @@ function cap_get_options() {
         new TextOption( 'Previous Comments', '', 'comments_previous', 'Older Comments' ),
         new TextOption( 'Next Comments', '', 'comments_next', 'News Comments' ),
         new TextOption( 'Browsing Category', 'Heading for category archives; category name will be appended.', 'browsing_category', 'Browsing ' ),
+        new TextOption( 'Generic Archive', '', 'generic_archive', 'Blog Archives' ),
+        new TextOption( 'Yearly Archive', 'Use [year] as a placeholder for the year', 'yearly_archive', '[year] Archive' ),
+        new TextOption( 'Monthly Archive', 'Use [date] as a placeholder for the month and year', 'monthly_archive', '[date] Archive' ),
+        new TextOption( 'Daily Archive', 'Use [date] as a placeholder for the full date', 'daily_archive', '[date] Archive' ),
 			)
 		),
 	);
