@@ -135,7 +135,10 @@ function cap_get_options() {
         'Use [num] as a placeholder for the number of comments',
         'many_comments',
         '[num] Comments'
-      ),              	 							
+      ),    
+    new TextOption( 'Comments Password Protected', '', 'comments_password_protected', 'This post is password protected. Enter the password to view any comments.', true ),                	 							
+    new TextOption( 'Previous Comments', '', 'comments_previous', 'Older Comments' ),
+    new TextOption( 'Next Comments', '', 'comments_next', 'News Comments' ),
 			)
 		),
 	);

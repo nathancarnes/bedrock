@@ -15,10 +15,10 @@
     <?php wp_title( '|', true, 'right' ); ?>
   </title>
   <?php if ( $cap->use_reset ) : ?>
-    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/stylesheets/reset.css">    
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/stylesheets/reset.css">    
   <?php endif; ?>  
   <?php if ( $cap->use_scaffold ) : ?>
-    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/stylesheets/scaffold.css">    
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/stylesheets/scaffold.css">    
   <?php endif; ?>
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>">  
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -39,4 +39,5 @@
     <nav>
   		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
   	</nav>
-  </header>
+  </header>      
+  <section id="main">
