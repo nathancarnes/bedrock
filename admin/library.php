@@ -246,7 +246,7 @@ function top_level_settings() {
 
 	<div class="wrap">     
 	  
-		<div id="icon-options-general" class="icon32"></div><h2><?php echo esc_html( $themename . ' Theme Options.' ); ?></h2>
+		<div id="icon-options-general" class="icon32"></div><h2><?php echo esc_html( $themename . ' Options.' ); ?></h2>
 
 		<form method="post">
 

@@ -13,17 +13,26 @@ if ( function_exists( 'register_sidebar' ) ) {
 		'before_title'  => '<h3 class="title">',
 		'after_title'   => '</h3>',
 	) );
-}
+}       
+
+if ( ! isset( $content_width ) ) $content_width = 600;
 
 if ( function_exists( 'add_theme_support' ) ) {  
   add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'nav-menus' );
 	add_theme_support( 'post-thumbnails' );
-//	set_post_thumbnail_size( 50, 50, true );
-	add_image_size('single-post-thumbnail', 630, 300, true);
+	add_theme_support( 'editor_style' );
+  
+
+	add_image_size( 'fullwidth', $content_width, ( $content_width / ( 16/9 ) ), true ); // gives you a full-column-width thumb at 16:9 aspect
+	add_image_size( 'smallicon', 32, 32, true ); 
+	add_image_size( 'largeicon', 64, 64, true );
+	add_image_size( 'tile', 100, 100, true );
+	add_image_size( 'lightbox', 800, 600 );
+	
+	add_editor_style( );
 }                   
 
-if ( ! isset( $content_width ) ) $content_width = 600;
 
 
 add_action( 'init', 'bedrock_register_menus' );
