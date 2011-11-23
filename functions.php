@@ -56,6 +56,7 @@ function bedrock_comments_title() {
       break;
     case 1: 
       echo $cap->one_comment;
+      break;
     default:
       echo str_replace( '[num]', $count, $cap->many_comments );    
   }            
