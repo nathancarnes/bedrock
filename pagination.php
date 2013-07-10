@@ -1,3 +1,4 @@
+<!-- Begin Pagination -->
 <div class="pagination">
   <?php global $cap; ?>
   <?php if ( $wp_query->max_num_pages > 1 ) : ?>

@@ -1,3 +1,4 @@
+<!-- Begin One Column -->
 <?php
 /**
  * Template Name: One column, no sidebar

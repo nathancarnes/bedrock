@@ -1,3 +1,4 @@
+<!-- Begin Comments -->
 <?php
 /*
  * @package WordPress
@@ -7,7 +8,7 @@
 
 global $cap;
 ?>
-                
+
 
 <?php if ( post_password_required() ) : ?>
   <p><?php echo $cap->comments_password_protected; ?></p>
@@ -28,7 +29,7 @@ global $cap;
 			    <?php previous_comments_link( $cap->comments_previous ); ?>
 				  <?php next_comments_link( $cap->comments_next ); ?>
 				</section>
-      <?php endif; ?>                          
+      <?php endif; ?>
   </section>
 <?php endif; ?>
 
