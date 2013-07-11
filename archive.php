@@ -1,10 +1,11 @@
+<!-- Begin archive.php -->
 <?php
 /**
  * @package WordPress
  * @subpackage Bedrock
  * @since Bedrock 2.0
  */
-     
+
 global $cap;
 get_header(); ?>
 
@@ -14,16 +15,16 @@ get_header(); ?>
 ?>
 
   <h1>
-    <?php 
-    if ( is_day() ) : 
-      echo str_replace( '[date]', get_the_date( ), $cap->daily_archive );            
-    elseif ( is_month() ) : 
-      echo str_replace( '[date]', get_the_date('F Y'), $cap->monthly_archive );      
+    <?php
+    if ( is_day() ) :
+      echo str_replace( '[date]', get_the_date( ), $cap->daily_archive );
+    elseif ( is_month() ) :
+      echo str_replace( '[date]', get_the_date('F Y'), $cap->monthly_archive );
     elseif ( is_year() ) :
       echo str_replace( '[year]', get_the_date('Y'), $cap->yearly_archive );
     else :
       echo $cap->generic_archive;
-    endif; 
+    endif;
     ?>
   </h1>
 
@@ -34,3 +35,4 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<!-- End archive.php -->

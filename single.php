@@ -1,3 +1,4 @@
+<!-- Begin single.php -->
 <?php
 /**
  * The Template for displaying all single posts.
@@ -15,8 +16,8 @@ get_header(); ?>
 
 						<?php the_date(); ?>
 
-						<?php the_content(); ?>  
-						
+						<?php the_content(); ?>
+
 						<?php wp_link_pages(); ?>
 
             <?php get_template_part( 'post_footer', 'loop' ); ?>
@@ -27,3 +28,4 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<!-- End single.php -->

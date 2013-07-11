@@ -1,3 +1,4 @@
+<!-- Begin tag.php -->
 <?php
 /**
  * The template for displaying Tag Archive pages.
@@ -15,3 +16,4 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<!-- End tag.php -->

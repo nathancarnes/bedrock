@@ -1,3 +1,4 @@
+<!-- Begin sidebar.php -->
 <?php
 /**
  * The Sidebar containing the primary and secondary widget areas.
@@ -31,3 +32,4 @@
       </li>
     <?php endif; // end primary widget area ?>
 </ul>
+<!-- End sidebar.php -->
