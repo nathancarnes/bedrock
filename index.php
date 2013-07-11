@@ -1,4 +1,4 @@
-<!-- Begin Index -->
+<!-- Begin index.php -->
 <?php
 /**
  * The main template file.
@@ -20,3 +20,4 @@ get_header( 'index' ); ?>
 
 <?php get_sidebar( 'index' ); ?>
 <?php get_footer( 'index' ); ?>
+<!-- End index.php -->

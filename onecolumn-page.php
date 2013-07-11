@@ -1,4 +1,4 @@
-<!-- Begin One Column -->
+<!-- Begin onecolumn-page.php -->
 <?php
 /**
  * Template Name: One column, no sidebar
@@ -22,3 +22,4 @@ get_header(); ?>
 <?php endwhile; ?>
 
 <?php get_footer(); ?>
+<!-- End onecolumn-page.php -->

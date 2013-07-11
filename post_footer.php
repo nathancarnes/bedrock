@@ -1,4 +1,4 @@
-<!-- Begin Post Footer -->
+<!-- Begin post_footer.php -->
 <?php global $cap; ?>
 <footer>
   <ul>
@@ -17,3 +17,4 @@
 	  <?php endif; ?>
 	</ul>
 </footer>
+<!-- End post_footer.php -->

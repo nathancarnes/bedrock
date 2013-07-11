@@ -1,4 +1,4 @@
-<!-- Begin Header -->
+<!-- Begin header.php -->
 <?php
 /**
  * @package WordPress
@@ -42,3 +42,4 @@
   	</nav>
   </header>
   <section id="main">
+<!-- End header.php -->

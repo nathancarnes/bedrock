@@ -1,4 +1,4 @@
-<!-- Begin Footer -->
+<!-- Begin footer.php -->
 <?php
 /**
  * @package WordPress
@@ -15,3 +15,4 @@
   <?php wp_footer(); ?>
 </body>
 </html>
+<!-- End footer.php -->

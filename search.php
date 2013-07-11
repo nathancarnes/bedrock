@@ -1,4 +1,4 @@
-<!-- Begin Search -->
+<!-- Begin search.php -->
 <?php
 /**
  * The template for displaying Search Results pages.
@@ -21,3 +21,4 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<!-- End search.php -->

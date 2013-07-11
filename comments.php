@@ -1,4 +1,4 @@
-<!-- Begin Comments -->
+<!-- Begin comments.php -->
 <?php
 /*
  * @package WordPress
@@ -34,3 +34,4 @@ global $cap;
 <?php endif; ?>
 
 <?php comment_form(); ?>
+<!-- End comments.php -->

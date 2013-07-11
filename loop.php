@@ -1,4 +1,4 @@
-<!-- Begin Loop -->
+<!-- Begin loop.php -->
 <?php
 /**
  * @package WordPress
@@ -35,3 +35,4 @@
 <?php endwhile; ?>
 
 <?php get_template_part( 'pagination', 'loop' ); ?>
+<!-- End loop.php -->

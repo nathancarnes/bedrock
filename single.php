@@ -1,4 +1,4 @@
-<!-- Begin Single -->
+<!-- Begin single.php -->
 <?php
 /**
  * The Template for displaying all single posts.
@@ -28,3 +28,4 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<!-- End single.php -->
